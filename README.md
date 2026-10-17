@@ -4,7 +4,7 @@
 
 - **PS Number:** PS2
 - **Project Name:** Recipe Finder
-- **Live Link:** https://ps2-recipe-finder.vercel.app
+- **Live Link:** https://web-assignment-5-divyansh-agarwal.vercel.app/
 
 ## APIs Used
 
