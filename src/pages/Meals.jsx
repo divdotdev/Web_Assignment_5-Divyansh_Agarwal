@@ -8,7 +8,7 @@ function Meals() {
   const [meals, setMeals] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [search, setSearch] = useState(searchParams.get("s") || "chicken");
+  const [search, setSearch] = useState(searchParams.get("s") || "");
 
   const fetchMeals = (term) => {
     setLoading(true);
@@ -29,7 +29,7 @@ function Meals() {
   };
 
   useEffect(() => {
-    const term = searchParams.get("s") || "chicken";
+    const term = searchParams.get("s") || "";
     setSearch(term);
     fetchMeals(term);
   }, [searchParams]);
